@@ -1,8 +1,25 @@
 aid: rent-the-runway
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/rent-the-runway.png
 name: Rent the Runway
-description: 'Rent the Runway is a company surfaced as a portfolio company of bain-capital-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Rent the Runway is a New York-based fashion technology company operating
+  a subscription and one-time rental service for designer apparel and accessories,
+  delivered direct-to-consumer through its website and mobile apps. Surfaced as a
+  portfolio company of bain-capital-ventures and added to the API Evangelist network
+  for enrichment. As of this pass the company publishes no first-party public developer
+  API, OpenAPI, SDK, or developer portal; its GitHub organization holds only internal
+  Java/RabbitMQ tooling and forks, and third-party access is limited to an affiliate
+  program run through external commerce networks.'
 url: https://raw.githubusercontent.com/api-evangelist/rent-the-runway/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +29,14 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Commerce
+- Fashion
+- Retail
+- Subscription
+- Apparel
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +45,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://renttherunway.com
+  url: https://www.renttherunway.com
+- type: GitHubOrganization
+  url: https://github.com/RentTheRunway
+- type: DomainSecurity
+  url: security/rent-the-runway-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
